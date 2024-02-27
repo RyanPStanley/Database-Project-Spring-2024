@@ -2,21 +2,21 @@
 
 ## Each Pokemon Game has its own rating from many different sources, as well as recorded sales numbers. This project will test if these different sales and ratings have any relation to each other.
 
-- Entities:
+### Entities:
 1. Pokemon Games
 
-- Relationships
+### Relationships
 1. Game has rating
 2. Game has sales numbers
 
-- Attributes
+### Attributes
 1. Game Rating
 2. Game Sales Numbers
 
-- Attribute Types
+### Attribute Types
 1. Rating - Integer from 0 to 10
 2. Sales Numbers - Positive Integer
 
-- Data Sources
+### Data Sources
 1. Ratings - https://www.ign.com/articles/2019/06/05/every-ign-pokemon-game-review (not using all data, but most)
 2. Sales Data - https://vgsales.fandom.com/wiki/Pokémon#:~:text=Pokémon%20is%20the%20highest-grossing,billion%20from%20licensed%20merchandise%20sales
