@@ -1,5 +1,6 @@
 {
-    "logFileLocation" : "./demo.log",
-    "aNumber" : 34,
-    "aString" : "This is a string"
+    "user" : "root",
+    "password" : "Fireboy2.0",
+    "host" : "127.0.0.1",
+    "database" : "GameSales"
 }

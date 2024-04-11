@@ -1,25 +1,33 @@
-import logging
 import sys
 import json
+import mysql.connector
+from mysql.connector import errorcode
 
-class CommandLineAndLogging:
-    def do_some_logging(self, config_data):
-        logging.info(config_data["aNumber"])
-        logging.info(config_data["aString"])
+def connectDatabase(config):
+    try:
+        connection = mysql.connector.connect(
+            user=config['user'],
+            password=config['password'],
+            host=config['host'],
+            database=config['database']
+        )
 
-if __name__ == "__main__":  
-    ## Get the configuration file 
-    configFileLocation = sys.argv[1]  
-    print("Configuration file location: {0}".format(configFileLocation))   
+    except mysql.connector.Error as err:
+        if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
+            print('Invalid credentials')
+        elif err.errno == errorcode.ER_BAD_DB_ERROR:
+            print('Database not found')
+        else:
+            print('Cannot conect to database:', err)
+        
+    else:
+        print("connected")
+        connection.close()
+
+if __name__ == "__main__":
+    configFileLocation = sys.argv[1]
     configFile = open(configFileLocation)
     configFileJSON = json.load(configFile)
+    connectDatabase(configFileJSON)
 
-    ## Setup logging
-    logging.basicConfig(filename=configFileJSON["logFileLocation"],
-        format="%(asctime)s %(levelname)s:%(message)s",
-        datefmt="%m/%d/%Y %I:%M:%S %p",
-        encoding="utf-8",
-        level=logging.DEBUG)
-
-    cmd_logging = CommandLineAndLogging()
-    cmd_logging.do_some_logging(configFileJSON)
+# run command: python3 command-line.py config.json
