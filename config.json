@@ -1,0 +1,5 @@
+{
+    "logFileLocation" : "./demo.log",
+    "aNumber" : 34,
+    "aString" : "This is a string"
+}
