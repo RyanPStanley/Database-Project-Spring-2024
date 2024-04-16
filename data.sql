@@ -4,7 +4,6 @@ use GameSales;
 
 CREATE TABLE Game (
     GameName VARCHAR(100) UNIQUE NOT NULL,
-    Region VARCHAR(100),
     Generation INT UNSIGNED,
     ReleaseYear SMALLINT UNSIGNED,
     Platform VARCHAR(100),
@@ -14,7 +13,6 @@ CREATE TABLE Game (
 CREATE TABLE Rating (
     GameName VARCHAR(100) UNIQUE NOT NULL,
     RatingNumber DECIMAL(2 , 1 ),
-    Reviewer VARCHAR(100),
     ReviewDate DATE,
     FOREIGN KEY (GameName)
         REFERENCES Game (GameName)
