@@ -21,7 +21,7 @@ def connectDatabase(config):
             print('Cannot conect to database:', err)
         
     else:
-        print("connected")
+        print("Connected to Database")
         connection.close()
 
 if __name__ == "__main__":
