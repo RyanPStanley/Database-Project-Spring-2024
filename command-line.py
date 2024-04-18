@@ -31,3 +31,8 @@ if __name__ == "__main__":
     connectDatabase(configFileJSON)
 
 # run command: python3 command-line.py config.json
+
+
+
+
+
