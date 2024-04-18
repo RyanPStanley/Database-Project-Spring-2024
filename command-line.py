@@ -2,6 +2,7 @@ import sys
 import json
 import mysql.connector
 from mysql.connector import errorcode
+import csv
 
 def connectDatabase(config):
     try:
@@ -31,6 +32,11 @@ if __name__ == "__main__":
     connectDatabase(configFileJSON)
 
 # run command: python3 command-line.py config.json
+
+dataFile = open('data.csv')
+type(dataFile)
+
+csvReader = csv.reader(dataFile)
 
 
 

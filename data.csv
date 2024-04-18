@@ -1,7 +1,21 @@
-gameName, unitSales, allTimeSales, ratingNumber, reviewDate, generation, releaseYear, platform
-Pokemon Red/Blue, 31050000, 1271000000, 10.0, 06/23/1999, 1, 1996, GameBoy
-Pokemon Yellow, 14640000, 454000000, 10.0, 10/20/1999, 1, 1998, GameBoy
-Pokemon Gold/Silver, 23730000, 1016000000, 10.0, 01/17/2000, 2, 1999, GameBoy Color
-Pokemon Crystal, 6390000, 211000000, 9.0, 07/30/2001, 2, 2000, GameBoy Color
-Pokemon Ruby/Sapphire, 16220000, 689000000, 9.5, 03/17/2003, 3, 2002, GameBoy Advance
-Pokemon Emerald, 7060000, 256000000, 8.0, 05/03/2005, 3, 2004, GameBoy Advance
+gameName, releaseYear, platform, unitSales, allTimeSales, reviewDate, generation, ratingNumber
+'Pokemon Red & Blue', 1996, 'GB', 31050000, 1271000000, 19990623, 1, 10.0
+'Pokemon Yellow', 1998, 'GB', 14640000, 454000000,  19991020, 1, 10.0,
+'Pokemon Gold & Silver', 1999, 'GBC', 23730000, 1016000000, 20000117, 2, 10.0
+'Pokemon Crystal', 2000, 'GBC', 6390000, 211000000, 20010730, 2, 9.0
+'Pokemon Ruby & Sapphire', 2002, 'GBA', 16220000, 689000000, 20030317, 3, 9.5
+'Pokemon Emerald', 2004, 'GBA', 7060000, 256000000, 20050503, 3, 8.0
+'Pokemon FireRed & LeafGreen', 2004, 'GBA', 12000000, 640000000, 20060909, 1, 9.0
+'Pokemon Diamond & Pearl', 2006, 'DS', 17670000, 778000000, 20070420, 4, 8.5
+'Pokémon Platinum', 2008, 'DS', 7600000, 372000000, 20090322, 4, 8.8
+'Pokémon HeartGold & SoulSilver', 2009, 'DS', 12720000, 763000000, 20100313, 2, 8.5
+'Pokémon Black & White', 2010, 'DS', 15640000, 759000000, 20110305, 5, 9.0
+'Pokémon Black 2 & White 2', 2012, 'DS', 8520000, 435000000, 20121004, 5, 9.6
+'Pokémon X & Y', 2013, '3DS', 16720000, 953000000, 20131004, 6, 9.0
+'Pokémon Omega Ruby & Alpha Sapphire', 2014, 3DS, 14600000, 703000000, 20141118, 3, 7.8
+'Pokémon Sun & Moon', 2016, '3DS', 16320000, 879000000, NULL, 7, 9.0
+'Pokémon Ultra Sun & Ultra Moon', 2017, '3DS', 9190000, 368000000, 21071114, 7, 9.0
+'Pokémon: Let's Go Pikachu & Eevee', 2018, 'Switch', 15070000, 904000000, 20181113, 1, 8.3
+'Pokémon Sword & Shield', 2019, 'Switch', 26170000, 1570000000, 20200623, 8, 7.0
+'Pokémon Legends: Arceus', 2022, 'Switch', 15000000, 900000000, 20220127, 8, 7.0
+'Pokémon Scarlet & Violet', 2022, 'Switch', 24360000, 1461000000, 20221123, 9, 6.0
