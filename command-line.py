@@ -33,7 +33,7 @@ if __name__ == "__main__":
 
 # run command: python3 command-line.py config.json
 
-dataFile = open('data.csv')
+dataFile = open('dataGame.csv')
 type(dataFile)
 
 csvReader = csv.reader(dataFile)

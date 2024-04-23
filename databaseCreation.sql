@@ -28,8 +28,3 @@ CREATE TABLE Sales (
         REFERENCES Game (GameName)
         ON DELETE RESTRICT ON UPDATE CASCADE
 );
-
-INSERT INTO Game(GameName, Generation, ReleaseYear, Platform)
-VALUES ('Pokemon Red & Blue', 1, 1996, 'GB'),
-    ('Pokemon Yellow', 1, 1998, 'GB'),
-    ()

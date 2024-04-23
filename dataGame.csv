@@ -1,0 +1,21 @@
+GameName, ReleaseYear, Platform, Generation
+'Pokemon Red & Blue', 1996, 'GB', 1
+'Pokemon Yellow', 1998, 'GB', 1
+'Pokemon Gold & Silver', 1999, 'GBC', 2
+'Pokemon Crystal', 2000, 'GBC', 2
+'Pokemon Ruby & Sapphire', 2002, 'GBA', 3
+'Pokemon Emerald', 2004, 'GBA', 3
+'Pokemon FireRed & LeafGreen', 2004, 'GBA', 1
+'Pokemon Diamond & Pearl', 2006, 'DS', 4
+'Pokémon Platinum', 2008, 'DS', 4
+'Pokémon HeartGold & SoulSilver', 2009, 'DS', 2
+'Pokémon Black & White', 2010, 'DS', 5
+'Pokémon Black 2 & White 2', 2012, 'DS', 5
+'Pokémon X & Y', 2013, '3DS', 6
+'Pokémon Omega Ruby & Alpha Sapphire', 2014, 3DS, 3
+'Pokémon Sun & Moon', 2016, '3DS', 7
+'Pokémon Ultra Sun & Ultra Moon', 2017, '3DS', 7
+'Pokémon: Lets Go Pikachu & Eevee', 2018, 'Switch', 1
+'Pokémon Sword & Shield', 2019, 'Switch', 8
+'Pokémon Legends: Arceus', 2022, 'Switch', 8
+'Pokémon Scarlet & Violet', 2022, 'Switch', 9
