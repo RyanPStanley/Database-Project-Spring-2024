@@ -16,7 +16,7 @@ with open('dataReviews.csv', mode ='r')as file:
             reviewsX.append((row[0])[9:-1])
 
 # Create a line plot
-ax.plot(reviewsX, reviewsY)
+ax.plot(reviewsX, reviewsY, linewidth=5.0)
 for tick in ax.xaxis.get_major_ticks()[1::3]:
     tick.set_pad(15)
 for tick in ax.xaxis.get_major_ticks()[2::3]:
@@ -24,4 +24,5 @@ for tick in ax.xaxis.get_major_ticks()[2::3]:
 fig.set_figwidth(30)
 fig.set_figheight(8)
 ax.set_title("Pokemon Games Review Numbers (out of 10)")
+ax.set_facecolor("aliceblue")
 plt.show()
