@@ -19,14 +19,14 @@ with open('dataSales.csv', mode ='r')as file:
 # Create a line plot
 
 
-ax[0].plot(x_axis, unitsY)
+ax[0].bar(x_axis, unitsY)
 ax[0].set_xticklabels([])
 fig.set_figwidth(30)
 fig.set_figheight(10)
 ax[0].set_title("Unit Sales")
-ax[0].set_yticklabels(['0', '10M', '15M', '20M', '25M', '30M'])
+ax[0].set_yticklabels(['0', '5M', '10M', '15M', '20M', '25M', '30M'])
 
-ax[1].plot(x_axis, salesY, color='green')
+ax[1].bar(x_axis, salesY, color='green')
 for tick in ax[1].xaxis.get_major_ticks()[1::3]:
     tick.set_pad(15)
 for tick in ax[1].xaxis.get_major_ticks()[2::3]:
