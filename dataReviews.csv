@@ -1,4 +1,4 @@
-gameName, reviewDate, ratingNumber
+GameName, reviewDate, ratingNumber
 'Pokemon Red & Blue', 19990623, 10.0
 'Pokemon Yellow', 19991020, 10.0
 'Pokemon Gold & Silver', 20000117, 10.0
@@ -7,15 +7,15 @@ gameName, reviewDate, ratingNumber
 'Pokemon Emerald', 20050503, 8.0
 'Pokemon FireRed & LeafGreen', 20060909, 9.0
 'Pokemon Diamond & Pearl', 20070420, 8.5
-'Pokémon Platinum', 20090322, 8.8
-'Pokémon HeartGold & SoulSilver', 20100313, 8.5
-'Pokémon Black & White', 20110305, 9.0
-'Pokémon Black 2 & White 2', 20121004, 9.6
-'Pokémon X & Y', 20131004, 9.0
-'Pokémon Omega Ruby & Alpha Sapphire', 20141118, 7.8
-'Pokémon Sun & Moon', NULL, 9.0
-'Pokémon Ultra Sun & Moon', 21071114, 9.0
-'Pokémon Lets Go', 20181113, 8.3
-'Pokémon Sword & Shield', 20200623, 7.0
-'Pokémon Legends: Arceus', 20220127, 7.0
-'Pokémon Scarlet & Violet', 20221123, 6.0
+'Pokemon Platinum', 20090322, 8.8
+'Pokemon HeartGold & SoulSilver', 20100313, 8.5
+'Pokemon Black & White', 20110305, 9.0
+'Pokemon Black 2 & White 2', 20121004, 9.6
+'Pokemon X & Y', 20131004, 9.0
+'Pokemon Omega Ruby & Alpha Sapphire', 20141118, 7.8
+'Pokemon Sun & Moon', NULL, 9.0
+'Pokemon Ultra Sun & Moon', 21071114, 9.0
+'Pokemon Lets Go', 20181113, 8.3
+'Pokemon Sword & Shield', 20200623, 7.0
+'Pokemon Legends: Arceus', 20220127, 7.0
+'Pokemon Scarlet & Violet', 20221123, 6.0
